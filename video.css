@@ -1,0 +1,26 @@
+/* Styling video container */
+.video-container {
+    max-width: 800px; /* Maksimum lebar video */
+    margin: 50px auto; /* Pusatkan video di halaman */
+    text-align: center; /* Teks judul di tengah */
+    background-color: #f6d1e6; /* Warna latar lembut */
+    padding: 20px;
+    border: 3px solid #ff69b4; /* Border pink */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk video */
+video, iframe {
+    width: 100%; /* Video responsif */
+    max-height: 450px; /* Maksimum tinggi video */
+    border: none; /* Hilangkan border untuk iframe */
+    border-radius: 10px; /* Video sudut melengkung */
+}
+
+/* Judul video */
+.video-container h1 {
+    font-size: 28px;
+    color: #ff1493; /* Deep pink */
+    margin-bottom: 15px;
+}

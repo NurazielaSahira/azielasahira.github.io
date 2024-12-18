@@ -1,0 +1,136 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edb1d2;  /* Soft pink background */
+    color: #333;  /* Text remains dark gray for readability */
+}
+
+/* Portfolio Section */
+.portfolio {
+    background-color: #efc6dd;
+    padding: 40px 0;
+}
+
+.portfolio .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #ff1493;  /* Deep pink for the heading */
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fafafa;
+    border: 1px solid #ff69b4;  /* Light pink border */
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-content h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ff1493;  /* Deep pink for project title */
+}
+
+.card-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card .btn {
+    background-color: #ff69b4;  /* Light pink button */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card .btn:hover {
+    background-color: #e10b7b;  /* Darker pink on hover */
+}
+
+/* Skills & Interests Section */
+.skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.skill {
+    background-color: #fff;
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border: 1px solid #ff69b4;  /* Light pink border for skills */
+}
+
+.skill i {
+    font-size: 40px;
+    color: #ff1493;  /* Deep pink for icon */
+    margin-bottom: 10px;
+}
+
+.skill h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff1493;  /* Deep pink for skill title */
+}
+
+.skill p {
+    font-size: 16px;
+    color: #666;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ff69b4;  /* Light pink footer background */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
